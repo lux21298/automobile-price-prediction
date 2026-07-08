@@ -5,6 +5,7 @@ venv/
 .env
 .DS_Store
 models/
+outputs/
 reports/*.json
 reports/*.png
 reports/.matplotlib/
