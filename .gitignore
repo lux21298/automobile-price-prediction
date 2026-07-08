@@ -6,7 +6,5 @@ venv/
 .DS_Store
 models/
 outputs/
-reports/*.json
-reports/*.png
 reports/.matplotlib/
 data/processed/
