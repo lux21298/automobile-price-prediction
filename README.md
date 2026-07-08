@@ -76,11 +76,19 @@ The implemented pipeline handles mixed numeric and categorical features:
 
 Training produces evaluation metrics and artifacts in `reports/` and a saved model in `models/`.
 
-Example metrics include:
+Latest recorded results from `reports/metrics.json`:
 
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R-squared (R2)
+- Mean Absolute Error (MAE): `1900.23`
+- Root Mean Squared Error (RMSE): `2907.20`
+- R-squared (R2): `0.9309`
+- Training rows: `160`
+- Test rows: `41`
+
+Generated report artifacts include:
+
+- `reports/metrics.json`
+- `reports/predicted_vs_actual.png`
+- `reports/feature_importance.png`
 
 ## Recommendations
 
